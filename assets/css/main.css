@@ -1,0 +1,178 @@
+/*
+
+WEBSITE CODED AND DESIGNED BY
+KILLER_X10 FROM KILLERDEVELOPING
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:900,300);
+@import url(animate.css);
+@import url(animations.css);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	background: rgba(0,0,0,0.1);  /* <- Change Background Brightness and Color over here */
+}
+
+#bg {
+	background: url(../images/ange.jpg); /* <- Change Background Image here */
+	overflow: hidden;
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+#wrapper {
+    width: 1500px;
+	margin-right: auto;
+    margin-left: auto;
+	top: 0;
+	left: 0;
+	
+}
+#wrapper > .logo {
+	margin-right: auto;
+    margin-left: auto;
+	position: relative;
+	margin-top: 60px
+}
+#wrapper > .logo > img {
+	/*content: url('http://zupimages.net/up/16/31/hht6.png');*/
+	height: auto;
+	width: auto;
+}
+
+/*
+#wrapper > .logo > img {
+	background: url('http://zupimages.net/up/16/31/hht6.png');
+    height: 205px;
+    width: 650px;
+    position: relative;
+    background-repeat: no-repeat;
+    left: 25%;
+	/*transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);*/
+}*/
+
+
+#wrapper > ul.menu {
+	list-style: none;
+	padding: none;
+	margin-top: 130px;
+	display: inline-block;
+}
+
+
+@media (min-width: 500px) {
+	#wrapper > ul.menu > li {
+		float: left;
+	}
+
+	#wrapper > ul.menu > li:not(:first-child) {
+		border-left: 1px solid rgba(255,255,255,.1);
+	}
+}
+
+@media (max-width: 500px) {
+	#wrapper > ul.menu > li:not(:first-child) {
+		border-top: 1px solid rgba(255,255,255,.1);
+	}
+}
+
+
+#wrapper > ul.menu > li > a,
+#wrapper > ul.menu > li > a > img,
+#wrapper > ul.menu > li > a > span {
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+}
+
+img.img1:hover  {
+	content: url(../images/icons/book_2.png);
+}
+img.img2:hover  {
+	content: url(../images/icons/box_2.png);
+}
+img.img3:hover  {
+	content: url(../images/icons/chest_2.png);
+}
+
+img.img4:hover {
+	content: url(../images/icons/battle_2.png);
+}
+
+#wrapper > ul.menu > li > a {
+	display: block;
+	text-decoration: none !important;
+	padding: 40px;
+}
+
+#wrapper > ul.menu > li > a > img {
+	width: 220px;
+	height: 150px;
+	opacity: 0.9;
+	/*display: none;*/
+}
+
+#wrapper > ul.menu > li > a:hover {
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+#wrapper > ul.menu > li > a:hover > img {
+	margin-bottom: 10px;
+	opacity: 1;
+	/*display: block;*/
+}
+
+#wrapper > ul.menu > li:nth-child(odd) > a > img {
+	position: relative;
+	animation: 2.1s menu_hover infinite ease-in-out;
+}
+
+#wrapper > ul.menu > li:nth-child(even) > a > img {
+	position: relative;
+	animation: 2.1s menu_hover_2 infinite ease-in-out;
+}
+
+#wrapper > ul.menu > li > a > span {
+	display: block;
+	color: rgba(255,255,255,.8);
+	font-weight: 900;
+	font-size: 14pt;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#wrapper > .footer {
+	font-weight: 300;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: rgba(255,255,255,.6);
+}
+
+#wrapper > .footer > a {
+	color: rgba(255,255,255,.7);
+	text-decoration: none;
+	padding-bottom: 2px;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+.menu{
+	width: 1300px;
+	height: 250px;
+	margin-right: auto;
+    margin-left: auto;
+	position: relative;
+	margin-top: 100px
+}

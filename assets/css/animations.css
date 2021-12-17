@@ -1,0 +1,90 @@
+/*
+
+WEBSITE CODED AND DESIGNED BY
+KILLER_X10 FROM KILLERDEVELOPING
+
+*/
+
+@keyframes menu_hover {
+	from {
+		top: 0;
+	}
+
+	50% {
+		top: -30px;
+	}
+
+	to {
+		top: 0;
+	}
+}
+
+@-webkit-keyframes menu_hover {
+	from {
+		top: 0;
+	}
+
+	50% {
+		top: -30px;
+	}
+
+	to {
+		top: 0;
+	}
+}
+
+@-moz-keyframes menu_hover {
+	from {
+		top: 0;
+	}
+
+	50% {
+		top: -30px;
+	}
+
+	to {
+		top: 0;
+	}
+}
+
+@keyframes menu_hover_2 {
+	from {
+		top: -30px;
+	}
+
+	50% {
+		top: 0px;
+	}
+
+	to {
+		top: -30px;
+	}
+}
+
+@-webkit-keyframes menu_hover_2 {
+	from {
+		top: -30px;
+	}
+
+	50% {
+		top: 0px;
+	}
+
+	to {
+		top: -30px;
+	}
+}
+
+@-moz-keyframes menu_hover_2 {
+	from {
+		top: -30px;
+	}
+
+	50% {
+		top: 0px;
+	}
+
+	to {
+		top: -30px;
+	}
+}
